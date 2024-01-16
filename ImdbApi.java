@@ -4,6 +4,7 @@ import java.net.http.HttpResponse.BodyHandlers;
 public class ImdbApi {
 
 	public static void main(String[] args) {
+		System.out.println("Uma exemplo de consumo de api");
 		HttpClient client = HttpClient.newHttpClient();
 		HttpRequest request = HttpRequest.newBuilder()
 		      .uri(URI.create("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL"))
